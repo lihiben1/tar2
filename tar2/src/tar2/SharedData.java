@@ -1,8 +1,9 @@
 package tar2;
 
 import java.util.ArrayList;
-/**
- * 
+
+/**SharedData class provides Data by making Getter and Setter
+ * @author lihib
  * 
  */
 public class SharedData 
@@ -12,6 +13,10 @@ public class SharedData
 	private boolean flag;
 	private final int b;
 	
+	/** constructor of the class SharedDate
+	 * @param array         
+	 * @param b
+	 */
 	public SharedData(ArrayList<Integer> array,int b)
 	{
 		
