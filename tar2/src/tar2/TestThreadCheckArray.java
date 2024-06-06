@@ -13,7 +13,7 @@ public class TestThreadCheckArray {
 			System.out.println("Enter numbers for array");
 			
 			for (int index = 0; index < num; index++) 
-				array.set(index , input.nextInt());
+				array.add(index , input.nextInt());
 			
 			System.out.println("Enter number");
 			num = input.nextInt();
